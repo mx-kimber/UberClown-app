@@ -1,2 +1,4 @@
-json.extract! booking, :id, :created_at, :updated_at
-json.url booking_url(booking, format: :json)
+json.id booking.id
+json.clown_id booking.clown_id
+json.customer_id booking.customer_id
+
